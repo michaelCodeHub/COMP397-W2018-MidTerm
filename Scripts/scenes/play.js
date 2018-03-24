@@ -66,7 +66,7 @@ var scenes;
                 managers.Game.currentScene = config.Scene.OVER;
             }
             //Checking for score to reach 500 and change the level
-            if (this._scoreBoard.Score == 500) {
+            if (this._scoreBoard.Score == 100) {
                 this._engineSound.stop();
                 managers.Game.currentScene = config.Scene.LEVELTWO;
             }

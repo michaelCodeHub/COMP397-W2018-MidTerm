@@ -84,8 +84,8 @@ module scenes {
           managers.Game.currentScene = config.Scene.OVER;
         }
   
-        //Checking for score to reach 500 and change the level
-        if(this._scoreBoard.Score==1000)
+        //Checking for score to reach 1000 and change the level
+        if(this._scoreBoard.Score==200)
         {
           this._engineSound.stop();
           managers.Game.currentScene = config.Scene.LEVELTHREE;

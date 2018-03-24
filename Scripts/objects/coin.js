@@ -40,7 +40,7 @@ var objects;
                     }
                     break;
                 case config.Scene.LEVELTHREE:
-                    if (this.x <= 640) {
+                    if (this.x >= 635) {
                         this.alpha = 1;
                     }
                     break;
