@@ -22,8 +22,23 @@ module objects {
     }
 
     public CheckBounds():void {
-      if(this.y > (480 + this.height)) {
-        this.alpha = 1;
+      switch (managers.Game.currentScene) {
+        case config.Scene.PLAY:
+          if(this.y > (480 + this.height)) {
+            this.alpha = 1;
+          }
+          break;
+        case config.Scene.LEVELTWO:
+          if(this.x <= 5) {
+            this.alpha = 1;
+          }
+          break;
+
+        case config.Scene.LEVELTHREE:
+        if(this.x <= 640) {
+          this.alpha = 1;
+        }
+        break;
       }
     }
   }

@@ -13,7 +13,6 @@ module objects {
 
     // public methods
     public Start(): void {
-
     }
 
     public Update(): void {

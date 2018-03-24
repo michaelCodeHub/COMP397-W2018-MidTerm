@@ -120,6 +120,12 @@
             case config.Scene.PLAY:
                 currentScene = new scenes.PlayScene();
                 break;
+            case config.Scene.LEVELTWO:
+                currentScene = new scenes.LevelTwo();
+                break;
+            case config.Scene.LEVELTHREE:
+                currentScene = new scenes.LevelThree();
+                break;
             case config.Scene.OVER:
                 currentScene = new scenes.OverScene();
                 break;
