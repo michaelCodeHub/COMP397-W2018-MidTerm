@@ -50,7 +50,6 @@ var objects;
         };
         // check to see if some boundary has been passed
         Ocean.prototype._checkBounds = function () {
-            console.log(this.x);
             switch (managers.Game.currentScene) {
                 case config.Scene.PLAY:
                     if (this.y >= 0) {

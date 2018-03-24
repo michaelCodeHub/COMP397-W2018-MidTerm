@@ -46,7 +46,6 @@ module objects {
 
     // check to see if some boundary has been passed
     private _checkBounds():void {
-      console.log(this.x);
       switch (managers.Game.currentScene) {
         case config.Scene.PLAY:
           if(this.y >= 0) {
